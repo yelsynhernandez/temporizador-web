@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <title>Temporizador de Conferencia</title>
+</head>
+<body>
+    <div class="temporizador" id="temporizador">
+        <div class="botones-subir-bajar">
+            <div class="subir">
+                <button id="btnSubirHora">+</button>
+                <button id="btnSubirMinuto">+</button>
+                <button id="btnSubirSegundo">+</button>
+            </div>
+            <div class="tiempo">
+                <span id="horas">00</span> : <span id="minutos">00</span> : <span id="segundos">00</span>
+            </div>
+            <div class="bajar">
+                <button id="btnBajarHora">-</button>
+                <button id="btnBajarMinuto">-</button>
+                <button id="btnBajarSegundo">-</button>
+            </div>
+        </div>
+            <button id="btnIniciarPausar">Iniciar</button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
